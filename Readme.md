@@ -15,10 +15,16 @@ Installation instruction could be found at tutorial/install.md.
 Once clone and deployed the example code, see [installation guide](tutorial/install.md) for details, three services are deployed:
 
 * /doc: Auto-generated OpenAPI document
-![alt text](tutorial/openapi.PNG)
+
+![screen shot of openapi specification](tutorial/openapi.PNG)
 
 * /api: API Endpoint
+
+![screen shot of API root](tutorial/api.PNG)
+
 * /: Frontend Editor
+
+![screen shot of editor](tutorial/editor.PNG)
 
 
 
