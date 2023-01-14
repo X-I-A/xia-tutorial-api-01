@@ -12,11 +12,7 @@ Installation instruction could be found at tutorial/install.md.
 
 ## Let's start !
 ### Data to API in 2 minutes
-Once clone the example code
-```
-git clone https://github.com/X-I-A/xia-tutorial-api-01
-```
-It is ready to be deployed as container compatible services. Three services come by default:
+Once clone and deployed the example code, see [installation guide](tutorial/install.md) for details, three services are deployed:
 
 * /doc: Auto-generated OpenAPI document
 ![alt text](tutorial/openapi.PNG)
