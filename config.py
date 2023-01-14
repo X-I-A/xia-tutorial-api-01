@@ -1,5 +1,4 @@
-import os
-from models.po import PurchaseOrder
+from models.purchase_order import PurchaseOrder
 
 
 class Config:

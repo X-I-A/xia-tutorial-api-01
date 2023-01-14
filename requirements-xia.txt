@@ -1,6 +1,4 @@
-xia_engine_firestore
 xia-api-flask
-xia-sso-flask
 xia-compiler-openapi
 xia-compiler-jsoneditor
 xia-openapi-flask
