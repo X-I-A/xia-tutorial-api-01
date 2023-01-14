@@ -15,9 +15,6 @@ COPY VERSION VERSION
 COPY requirements.txt requirements.txt
 COPY requirements-xia.txt requirements-xia.txt
 # Install Linux component
-RUN apt-get update && apt-get install --yes wkhtmltopdf
-RUN apt-get clean autoclean
-RUN apt-get autoremove --yes
 # Install production dependencies.
 RUN pip install -r requirements.txt
 RUN pip install -r requirements-xia.txt
