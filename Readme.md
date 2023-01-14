@@ -31,17 +31,24 @@ Once clone and deployed the example code (see [installation guide](tutorial/inst
 
 ### Define your own data model
 
-In order to deploy your own data model, you just need to focus on your data model.
+In order to use your own data model, you just need to focus on kernel code.
 
 1. Adapting data models in models directory
 2. Importing defined models into config.py
-3. Defining resource mapping. 
+3. Defining resource mapping in config.py. 
 ```
     RESOURCE_MAPPING = { "order": PurchaseOrder }
 ```
 For the above example, if you want to manipulate Python data model PurchaseOrder, you could use:
 * /api/order for api call
 * /order for web editing
+
+### Other files:
+* static/js/redoc.js: Presenting OpenAPI specification in web page
+* compile.py: Used to compile static files from defined data models
+* Dockerfile: build container
+* main.py: Entry points
+* requirements.txt, requirement-xia.txt: pip package dependencies
 
 ### Next Step: Making your data persistent
 
