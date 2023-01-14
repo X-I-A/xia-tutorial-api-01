@@ -29,10 +29,5 @@ app.register_blueprint(doc_blueprint, url_prefix="/doc")
 app.register_blueprint(editor_blueprint,  url_prefix="/editor")
 
 
-@app.route("/")
-def home():
-    return render_template("base.html")
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))  # pragma: no cover
