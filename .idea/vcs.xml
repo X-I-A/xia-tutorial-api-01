@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../xia-universe/xia-compiler-jsoneditor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../xia-universe/xia-editor-flask" vcs="Git" />
   </component>
 </project>

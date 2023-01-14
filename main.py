@@ -18,15 +18,15 @@ editor_blueprint = XiaEditorFlask.get_editor_blueprint(
     editor_html_location="editor.html",
     js_location="/static/js/editor.js",
     token_manager=FlaskToken,
-    editor_prefix="/editor",
+    editor_prefix="",
     api_prefix="/api",
     schema_prefix="/static/schemas/",
-    public_resource=["po"],
+    public_resource=None,
 )
 
 app.register_blueprint(api_blueprint, url_prefix="/api")
 app.register_blueprint(doc_blueprint, url_prefix="/doc")
-app.register_blueprint(editor_blueprint,  url_prefix="/editor")
+app.register_blueprint(editor_blueprint,  url_prefix="/")
 
 
 if __name__ == '__main__':

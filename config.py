@@ -8,7 +8,7 @@ class Config:
     APP_NAME = 'xia-tutorial-api-01'
     APP_DESCRIPTION = "X-I-A Tutorial API - 01 - Introduction"
     RESOURCE_MAPPING = {
-        "po": PurchaseOrder,
+        "order": PurchaseOrder,
     }
 
 
