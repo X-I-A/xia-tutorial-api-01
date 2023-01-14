@@ -1,10 +1,8 @@
 import os
-from flask import Flask, Blueprint, render_template
-from xia_api import AuthClient
+from flask import Flask, render_template
 from xia_api_flask import Restful
 from xia_openapi_flask import XiaOpenapiFlask
 from xia_token_flask import FlaskToken
-from xia_sso_flask import XiaSsoFlask
 from xia_editor_flask import XiaEditorFlask
 
 
@@ -34,15 +32,6 @@ app.register_blueprint(editor_blueprint,  url_prefix="/editor")
 @app.route("/")
 def home():
     return render_template("base.html")
-
-
-# Model Configuration
-XiaSsoFlask.XiaUserRoles._meta["api_endpoint"] = app.config.get("AUTH_API_ROOT") + "role"
-XiaSsoFlask.XiaUserRoles._meta["api_key"] = app.config.get("AUTH_API_KEY")
-XiaSsoFlask.XiaRoleMatrix._meta["api_endpoint"] = app.config.get("AUTH_API_ROOT") + "matrix"
-XiaSsoFlask.XiaRoleMatrix._meta["api_key"] = app.config.get("AUTH_API_KEY")
-FlaskToken.keys = app.config.get("TOKEN_KEYS").split("|")
-FlaskToken.REFRESH_TOKEN_PATH = app.config.get("REFRESH_TOKEN_PATH")
 
 
 if __name__ == '__main__':
