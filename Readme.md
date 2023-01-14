@@ -50,6 +50,8 @@ For the above example, if you want to manipulate Python data model PurchaseOrder
 * main.py: Entry points
 * requirements.txt, requirement-xia.txt: pip package dependencies
 
+That is all what you need to make it work
+
 ### Next Step: Making your data persistent
 
 Data Model use by default RamEngine which keeps data in Memory. 
