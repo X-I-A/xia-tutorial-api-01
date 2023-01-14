@@ -16,7 +16,7 @@ if __name__ == '__main__':
     app.config.from_object("config." + os.environ.get("XIA_ENV", "prod").title() + "Config")
 
     # Compiler schema files
-    XiaCompilerJsoneditor.compile_schema(app.config["RESOURCE_MAPPING"], {}, "./static", "/editor/")
+    XiaCompilerJsoneditor.compile_schema(app.config["RESOURCE_MAPPING"], {}, "./static", "/")
     XiaCompilerOpenapi.compile_spec(app.config["RESOURCE_MAPPING"], {}, "./static", "X-I-A API Documentation",
                                     get_version(), "/api", False)
 
