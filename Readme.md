@@ -48,11 +48,18 @@ For the above example, if you want to manipulate Python data model PurchaseOrder
 * /order for web editing
 
 ### Other files:
-* static/js/redoc.js: Presenting OpenAPI specification in web page
+
+Only 5 other files relates to the application. Other files are related to tutorial
+
 * compile.py: Used to compile static files, including html file from defined data models
 * Dockerfile: build container
-* main.py: Entry points
-* requirements.txt, requirement-xia.txt: pip package dependencies
+* main.py: Flask application main program
+* requirements.txt: pip package dependencies 
+* requirement-xia.txt: pip package dependencies of xia scope
+
+Also keeping two empty directories:
+* static: Holding static files
+* templates: Holding html templates
 
 That is all what you need to make it work
 
