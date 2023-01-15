@@ -21,7 +21,7 @@ Or just visiting the already deployed [online version](https://xia-tutorial-api-
 
 After it is done, three services are deployed:
 
-<video src='tutorial/tutorial-01.mp4' width=180 />
+<video src="tutorial/tutorial-01.mp4"></video>
 
 * /doc: Auto-generated OpenAPI document
 
