@@ -17,7 +17,7 @@ Installation instruction could be found at tutorial/install.md.
 
 Please clone and deployed the example code (see [installation guide](tutorial/install.md) for instruction).
 
-Or just visiting the already deployed [online version](https://xia-tutorial-api-01-srspyyjtqa-ew.a.run.app)
+Or just visiting the already deployed [online version](https://xia-tutorial-api-01-srspyyjtqa-ew.a.run.app/order)
 
 After it is done, three services are deployed:
 
