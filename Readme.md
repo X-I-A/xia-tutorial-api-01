@@ -23,6 +23,8 @@ After it is done, three services are deployed:
 
 * /doc: Auto-generated OpenAPI document
 
+[online version](https://xia-tutorial-api-01-srspyyjtqa-ew.a.run.app/doc)
+
 ![screen shot of openapi specification](tutorial/openapi.PNG)
 
 * /api: API Endpoint
