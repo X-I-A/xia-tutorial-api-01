@@ -61,6 +61,9 @@ Also keeping two empty directories:
 * static: Holding static files
 * templates: Holding html templates
 
+A js library:
+* /static/js/redoc: Parsing OpenApi schema to webpage, based on [Redocly](https://github.com/Redocly/redoc)
+
 That is all what you need to make it work
 
 ### Next Step: Making your data persistent
