@@ -87,6 +87,6 @@ X-I-A is capable of working with any database. Please follow the next tutorial:
 * Tutorial 07: Examples of complex application
 
 ### Going deeper on data model topic
-* Tutorial 01-01: Using fields libraries
-* Tutorial 01-02: How to describe complex data models (document in document / document relationships)
+* [Tutorial 01-01](https://github.com/X-I-A/xia-tutorial-api-01-01): Simple Data Model (Documents / Fields / Actions / EmbeddedDocuments)
+* Tutorial 01-02: Advanced Data Models (ExternalDocument)
 * Tutorial 01-03: Framework natively avoids over fetching and under fetching
