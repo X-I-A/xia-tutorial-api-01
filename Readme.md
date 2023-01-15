@@ -21,8 +21,6 @@ Or just visiting the already deployed [online version](https://xia-tutorial-api-
 
 After it is done, three services are deployed:
 
-https://user-images.githubusercontent.com/49595269/212530070-17cf7f9e-c75f-43b8-ab51-4317dccb1812.mp4
-
 * /doc: Auto-generated OpenAPI document
 
 ![screen shot of openapi specification](tutorial/openapi.PNG)
@@ -34,6 +32,11 @@ https://user-images.githubusercontent.com/49595269/212530070-17cf7f9e-c75f-43b8-
 * /: Frontend Editor
 
 ![screen shot of editor](tutorial/editor.PNG)
+
+Here is a 30-second-video to show briefly how editor works:
+
+https://user-images.githubusercontent.com/49595269/212530070-17cf7f9e-c75f-43b8-ab51-4317dccb1812.mp4
+
 
 ### Define your own data model
 
