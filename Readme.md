@@ -21,6 +21,8 @@ Or just visiting the already deployed [online version](https://xia-tutorial-api-
 
 After it is done, three services are deployed:
 
+![30 seconds video](tutorial/tutorial-01.mp4)
+
 * /doc: Auto-generated OpenAPI document
 
 ![screen shot of openapi specification](tutorial/openapi.PNG)
