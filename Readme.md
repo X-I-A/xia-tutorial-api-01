@@ -15,7 +15,11 @@ Installation instruction could be found at tutorial/install.md.
 ## Let's start !
 ### Data to API in 2 minutes
 
-Once clone and deployed the example code (see [installation guide](tutorial/install.md) for instruction), three services are deployed:
+Please clone and deployed the example code (see [installation guide](tutorial/install.md) for instruction).
+
+Or just visiting the already deployed [online version](https://xia-tutorial-api-01-srspyyjtqa-ew.a.run.app)
+
+After it is done, three services are deployed:
 
 * /doc: Auto-generated OpenAPI document
 
@@ -45,7 +49,7 @@ For the above example, if you want to manipulate Python data model PurchaseOrder
 
 ### Other files:
 * static/js/redoc.js: Presenting OpenAPI specification in web page
-* compile.py: Used to compile static files from defined data models
+* compile.py: Used to compile static files, including html file from defined data models
 * Dockerfile: build container
 * main.py: Entry points
 * requirements.txt, requirement-xia.txt: pip package dependencies
@@ -57,8 +61,12 @@ That is all what you need to make it work
 Data Model use by default RamEngine which keeps data in Memory. 
 In order to make your data persistent, you will need to change data engine. 
 X-I-A is capable of working with any database. Please follow the next tutorial:
-* Tutorial 02: Database Engine
-
+* Tutorial 02: Database Engine Integration
+* Tutorial 03: User Authentication
+* Tutorial 04: Authorization Management
+* Tutorial 05: Applying rate limits // Payment
+* Tutorial 06: Making independent microservice work as a complex application 
+* Tutorial 07: Examples of complex application
 
 ### Going deeper on data model topic
 * Tutorial 01-01: Using fields libraries
