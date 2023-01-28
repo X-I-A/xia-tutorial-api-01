@@ -42,7 +42,7 @@ https://user-images.githubusercontent.com/49595269/212530070-17cf7f9e-c75f-43b8-
 
 ### Define your own data model
 
-In order to use your own data model, you just need to focus on kernel code.
+In order to use your own data model, you just need to focus on application logic.
 
 1. Adapting data models in models directory
 2. Importing defined models into config.py
