@@ -15,7 +15,7 @@ Installation instruction could be found at tutorial/install.md.
 ## Let's start !
 ### Data to API in 2 minutes
 
-Please clone and deployed the example code (see [installation guide](tutorial/install.md) for instruction).
+Please clone and deploy the example code (see [installation guide](tutorial/install.md) for instruction).
 
 Or just visiting the already deployed [online version](https://xia-tutorial-api-01-srspyyjtqa-ew.a.run.app/order)
 
