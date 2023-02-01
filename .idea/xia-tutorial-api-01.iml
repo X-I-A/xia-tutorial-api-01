@@ -6,6 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="xia-compiler-jsoneditor" />
     <orderEntry type="module" module-name="xia-editor-flask" />
-    <orderEntry type="module" module-name="xia-openapi-flask" />
+    <orderEntry type="module" module-name="xia-compiler-openapi" />
   </component>
 </module>
