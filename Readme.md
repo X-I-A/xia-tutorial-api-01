@@ -44,7 +44,7 @@ In order to use your own data model, you just need to focus on application logic
 
 1. Adapting data models in models directory
 2. Importing defined models into config.py
-3. Defining resource mapping in config.py. 
+3. Defining resource mapping in config.py, just like:
 ```
     RESOURCE_MAPPING = { "order": PurchaseOrder }
 ```
