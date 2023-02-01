@@ -25,15 +25,13 @@ After it is done, three services are deployed:
 
 [online version](https://xia-tutorial-api-01-srspyyjtqa-ew.a.run.app/doc)
 
-![screen shot of openapi specification](tutorial/openapi.PNG)
-
 * /api: API Endpoint
 
-![screen shot of API root](tutorial/api.PNG)
+Here is a 40-second-video to show how to quickly construct a playground with /doc and /api endpoints.
 
-* /: Frontend Editor
+https://user-images.githubusercontent.com/49595269/216164016-5aff811d-4424-4066-82e4-a3e7682f32fe.mp4
 
-![screen shot of editor](tutorial/editor.PNG)
+* /: The demo also comes with a simple Online Editor. It just covers little functionality of API, and it is only designed for demo purpose.
 
 Here is a 30-second-video to show briefly how editor works:
 
